@@ -25,6 +25,10 @@ Obs:  Para cada input deverá validar o tamanho e o tipo do caratere (letra ou n
 ## imagens
 Pagina inicial do Projeto
 ![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main.JPG)
+Inputs
+![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main-correto.JPG)
+Inputs erro
+![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main-com-erro.JPG)
 
 # Como executar a aplicação 
 
