@@ -20,14 +20,18 @@ b) Telefone (10 dígitos)
 
 Obs:  Para cada input deverá validar o tamanho e o tipo do caratere (letra ou número), podendo utilizar a biblioteca YUP ou funções internas em Javascript.
 
-## imagens
+## imagens desktop
 Pagina inicial do Projeto
 ![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main.JPG)
 Inputs
 ![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main-correto.JPG)
 Inputs erro
 ![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main-com-erro.JPG)
-
+## imagens Mobile
+Mobile <br>
+![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main-mobile-411px.JPG)
+<br> Mobile erro <br>
+![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main-erro-mobile-411px.JPG)
 # Como executar a aplicação 
 
 ## Getting Started with Create React App
