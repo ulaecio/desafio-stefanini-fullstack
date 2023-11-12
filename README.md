@@ -1,9 +1,7 @@
-# desafio-stefanini-fullstack
+# Desafio Stefanini Fullstack
 Testes Prático para Seleção para Desenvolvedor FullStack
 ## Desafio FullStack
-### Frontend:
-- https:
-- 
+### Link do projeto Frontend: [https://ulaecio-desafio-staefanini.netlify.app](https://ulaecio-desafio-staefanini.netlify.app)
 ## Descrição 
 
 ### Desenvolver aplicação em React e disponibilizar os fonts no Github.
@@ -25,6 +23,10 @@ Obs:  Para cada input deverá validar o tamanho e o tipo do caratere (letra ou n
 ## imagens
 Pagina inicial do Projeto
 ![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main.JPG)
+Inputs
+![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main-correto.JPG)
+Inputs erro
+![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main-com-erro.JPG)
 
 # Como executar a aplicação 
 
