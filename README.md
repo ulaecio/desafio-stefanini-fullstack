@@ -28,9 +28,9 @@ Inputs
 Inputs erro
 ![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main-com-erro.JPG)
 ## imagens Mobile
-Mobile
+Mobile <br>
 ![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main-mobile-411px.JPG)
-Mobile erro
+<br> Mobile erro <br>
 ![Pagina inicial](https://raw.githubusercontent.com/ulaecio/desafio-stefanini-fullstack/main/frontend/src/assets/img/main-erro-mobile-411px.JPG)
 # Como executar a aplicação 
 
