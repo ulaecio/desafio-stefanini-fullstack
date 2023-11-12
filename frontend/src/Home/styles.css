@@ -6,6 +6,8 @@
   width: 60%;
   max-width: 800px;
   margin: 30px auto;
+  background-color: #626161;
+  border-radius: 10px;
 }
 
 .stefanini-card {
@@ -23,95 +25,149 @@
   font-size: 24px;
   margin-bottom: 20px;
 }
-  
-  .stefanini-title-response {
-    color: #1B2531;
-    margin-right: 14px;
-    font-size: 20px;
-    justify-items: center;
-    padding-top: 10px;
-    border-top: 1px solid #1B2531;
-  }
-  
-  .stefanini-form-control-container {
-    margin-bottom: 16px;
-    max-width: 30px;
-  }
-  
-  .stefanini-form-control {
-    height: 46px;
-    margin-right: 50px;
-    background-color: #1B2531;
-    border: 1px solid #384459;
-    border-radius: 5px;
-    width: 90%;
-    color: #9AAABE;
-    padding: 0px 20px;
-    font-size: 18px;
+
+.stefanini-title-response {
+  color: #1b2531;
+  margin-right: 14px;
+  font-size: 20px;
+  justify-items: center;
+  padding-top: 10px;
+}
+.stefanini-div-response {
+  border-top: 1px solid #1b2531;
+}
+
+.stefanini-form-control-container {
+  margin-bottom: 16px;
+  max-width: 30px;
+}
+
+.stefanini-form-control {
+  height: 46px;
+  margin-right: 50px;
+  background-color: #1b2531;
+  border: 1px solid #384459;
+  border-radius: 5px;
+  width: 90%;
+  color: #9aaabe;
+  padding: 0px 20px;
+  font-size: 18px;
+}
+
+.home-btn {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  width: 235px;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: -0.015em;
+  color: #fff;
+  margin-top: 50px;
+  padding-right: 20px;
+  text-justify: initial;
+}
+
+.home-btn:hover {
+  background-color: var(--primary-hover-color);
+  color: #fff;
+  transform: scale(1.01);
+}
+
+.button-fechar {
+  background-color: #1b2531;
+  flex-direction: "row";
+  padding: 3px 10px !important;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-left: 2px;
+  margin-right: 10px;
+  align-items: "center";
+  justify-content: "center";
+}
+
+.mensagem-erro {
+  color: aqua;
+}
+
+.show576 {
+  display: none;
+}
+
+.show992 {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .show576 {
+    display: table-cell;
   }
 
-  .home-btn {
-    background-color: var(--primary-color);
-    border-radius: 10px;
-    width: 235px;
-    font-weight: bold;
-    font-size: 24px;
-    letter-spacing: -0.015em;
-    color: #fff;
-    margin-top: 50px;
-    padding-right: 20px;
-    text-justify: initial;
+  .stefanini-card {
+    padding: 35px;
   }
-  
+}
+
+@media (min-width: 992px) {
+  .show992 {
+    display: table-cell;
+  }
+}
+
+{/*Smartphone*/}
+@media (min-width: 411px) {
+  .div-home {
+    margin-top: 9rem;
+  }
+
+  .stefanini-logo-container{
+    padding-top: 30px;
+  }
+  .stefanini-logo-container h1{
+    font-size: 20px;
+  }
+  .stefanini-cadastro-input {
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+  .stefanini-container {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin-top: 1px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .stefanini-cadastro-title {
+    color: #b26e10;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .home-btn {
+    width: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 35px !important;
+
+  }
   .home-btn:hover {
     background-color: var(--primary-hover-color);
     color: #fff;
     transform: scale(1.01);
   }
-  
-  .button-fechar {
-    background-Color: #1B2531;
-    flex-Direction: 'row';
-    padding: 3px 10px !important;
-    border-Radius: 10px;
-    margin-Top: 0px;
-    margin-Left: 2px;
-    margin-Right: 10px;
-    align-Items: 'center';
-    justify-Content: 'center'
+  .stefanini-title-response {
+    color: #1b2531;
+    font-size: medium;
+    padding-top: 10px;
   }
-
-  .mensagem-erro{
-    color: aqua;
+  .stefanini-div-response {
+    border-top: 1px solid #1b2531;
+    margin: 20px;
   }
-  
-  .show576 {
-    display: none;
-  }
-  
-  .show992 {
-    display: none;
-  }
-  
-  @media (min-width: 576px) {
-    .show576 {
-        display: table-cell;
-    }
-  
-    .stefanini-card {
-        padding: 35px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .show992 {
-        display: table-cell;
-    }
-  }
-
-@media (min-width: 411px) {
-  .div-home {
-    margin-top: 9rem;
+  .stefanini-div2-response {
+    padding-left: 20px;
   }
 }
 

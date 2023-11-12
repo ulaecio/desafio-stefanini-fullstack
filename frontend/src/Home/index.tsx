@@ -23,7 +23,7 @@ const Home = () => {
     return input;
   };
 
-  const handleTelefoneChange = (e: { target: { value: string; }; }) => {
+  const handleTelefoneChange = (e: { target: { value: string } }) => {
     const telefoneFormatado = formatarTelefone(e.target.value);
 
     if (telefoneFormatado) {
@@ -56,7 +56,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="stefanini-container stefanini-card">
+      <div className="stefanini-container">
         <div className="stefanini-cadastro-input">
           <h1 className="stefanini-cadastro-title">Cadastro de Clientes</h1>
           <label>
@@ -105,16 +105,20 @@ const Home = () => {
           </button>
         </div>
         {modalVisible && (
-          <div>
-            <h2 className="stefanini-title-response">Valores do Formulário:</h2>
-            <p>Nome: {nome}</p>
-            <p>Telefone: {telefone}</p>
-            <button
-              className="button-fechar"
-              onClick={() => setModalVisible(false)}
-            >
-              Fechar
-            </button>
+          <div className="stefanini-div-response">
+            <div className="stefanini-div2-response">
+              <h2 className="stefanini-title-response">
+                Valores do Formulário:
+              </h2>
+              <p>Nome: {nome}</p>
+              <p>Telefone: {telefone}</p>
+              <button
+                className="button-fechar"
+                onClick={() => setModalVisible(false)}
+              >
+                Fechar
+              </button>
+            </div>
           </div>
         )}
       </div>
@@ -122,4 +126,4 @@ const Home = () => {
   );
 };
 
-export default Home
+export default Home;
