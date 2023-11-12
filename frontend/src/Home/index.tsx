@@ -56,7 +56,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="stefanini-container">
+      <div className="stefanini-container header stefanini-logo-container">
         <div className="stefanini-cadastro-input">
           <h1 className="stefanini-cadastro-title">Cadastro de Clientes</h1>
           <label>
@@ -97,16 +97,18 @@ const Home = () => {
             </p>
           )}
           <br />
-          <button className="home-btn" onClick={handleSalvar}>
-            Salvar
-          </button>
-          <button className="home-btn" onClick={handleLimpar}>
-            Limpar
-          </button>
+          <div className="stefanin-div-btn">
+            <button className="home-btn" onClick={handleSalvar}>
+              Salvar
+            </button>
+            <button className="home-btn" onClick={handleLimpar}>
+              Limpar
+            </button>
+          </div>
         </div>
         {modalVisible && (
-          <div className="stefanini-div-response">
-            <div className="stefanini-div2-response">
+          <div className="stefanini-div-response stefanini-cadastro-input">
+            <div className="stefanini-div2-response header">
               <h2 className="stefanini-title-response">
                 Valores do Formulário:
               </h2>

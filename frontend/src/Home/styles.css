@@ -1,115 +1,102 @@
 body {
   .div-home {
-  margin-top: 5rem;
-}
-
-.stefanini-container {
-  width: 800px;
-  height: 650px;
-  margin: 20px auto;
-  background-color: #626161;
-  border-radius: 10px;
-}
-
-.stefanini-cadastro-input {
-  width: 80%;
-  max-width: 100%;
-  margin: 15px auto;
-}
-
-.stefanini-cadastro-title {
-  color: #b26e10;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.stefanini-title-response {
-  color: #1b2531;
-  margin-right: 14px;
-  font-size: 20px;
-  justify-items: center;
-  padding-top: 10px;
-}
-.stefanini-div-response {
-  border-top: 1px solid #1b2531;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.stefanini-div2-response {
-  margin: 32px 60px;
-}
-
-.stefanini-form-control-container {
-  margin-bottom: 16px;
-  max-width: 30px;
-}
-
-.stefanini-form-control {
-  height: 46px;
-  margin-right: 50px;
-  background-color: #1b2531;
-  border: 1px solid #384459;
-  border-radius: 5px;
-  width: 90%;
-  color: #9aaabe;
-  padding: 0px 20px;
-  font-size: 18px;
-}
-
-.home-btn {
-  background-color: var(--primary-color);
-  border-radius: 10px;
-  width: 150px;
-  font-weight: bold;
-  font-size: 24px;
-  letter-spacing: -0.015em;
-  color: #fff;
-  margin-top: 30px;
-  margin-left: 20px;
-  padding-right: 10px;
-  text-justify: initial;
-}
-
-.home-btn:hover {
-  background-color: var(--primary-hover-color);
-  color: #fff;
-  transform: scale(1.01);
-}
-
-.button-fechar {
-  background-color: #1b2531;
-  border-color: #b26e10;
-  flex-direction: "row";
-  padding: 12px 30px !important;
-  border-radius: 10px;
-  margin-top: 0px;
-  margin-left: 2px;
-  margin-right: 10px;
-  align-items: "center";
-  justify-content: "center";
-}
-
-.mensagem-erro {
-  color: aqua;
-}
-}
-
-.show576 {
-  display: none;
-}
-
-.show992 {
-  display: none;
-}
-
-@media (min-width: 576px) {
-  .show576 {
-    display: table-cell;
+    margin-top: 5rem;
   }
 
-  .stefanini-card {
-    padding: 35px;
+  .stefanini-container {
+    width: 800px;
+    height: 650px;
+    margin: 20px auto;
+    background-color: #626161;
+    border-radius: 10px;
+  }
+
+  .stefanini-cadastro-input {
+    width: 80%;
+    max-width: 100%;
+    margin: 15px auto;
+  }
+
+  .stefanini-cadastro-title {
+    color: #b26e10;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .stefanini-title-response {
+    color: #1b2531;
+    margin-right: 14px;
+    font-size: 20px;
+    justify-items: center;
+    padding-top: 10px;
+  }
+  .stefanini-div-response {
+    border-top: 1px solid #1b2531;
+  }
+
+  .stefanini-div2-response {
+    margin: 3px 60px;
+    justify-items: center;
+  }
+
+  .stefanini-form-control-container {
+    margin-bottom: 16px;
+    max-width: 30px;
+  }
+
+  .stefanini-form-control {
+    height: 46px;
+    margin-right: 50px;
+    background-color: #1b2531;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    width: 90%;
+    color: #9aaabe;
+    padding: 0px 20px;
+    font-size: 18px;
+  }
+
+  .stefanin-div-btn {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+  }
+  .home-btn {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.015em;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-right: 10px;
+    text-justify: initial;
+  }
+
+  .home-btn:hover {
+    background-color: var(--primary-hover-color);
+    color: #fff;
+    transform: scale(1.01);
+  }
+
+  .button-fechar {
+    background-color: #1b2531;
+    color: #b26e10;
+    border-color: #b26e10;
+    flex-direction: "row";
+    padding: 12px 30px !important;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 2px;
+    margin-right: 10px;
+    align-items: "center";
+    justify-content: "center";
+  }
+
+  .mensagem-erro {
+    color: aqua;
   }
 }
 
@@ -120,13 +107,12 @@ body {
 }
 
 /*Smartphone*/
-@media (max-width: 412px) {
-
-  .stefanini-logo-container{
+@media (max-width: 816px) {
+  .stefanini-logo-container {
     padding-top: 30px;
     margin-top: 1px;
   }
-  .stefanini-logo-container h1{
+  .stefanini-logo-container h1 {
     font-size: 20px;
   }
   .stefanini-cadastro-input {
@@ -156,7 +142,6 @@ body {
     padding: 1px;
     font-size: 20px;
     margin-left: 100px;
-
   }
   .home-btn:hover {
     background-color: var(--primary-hover-color);
@@ -189,4 +174,3 @@ body {
     margin-top: 7rem;
   }
 }
-
